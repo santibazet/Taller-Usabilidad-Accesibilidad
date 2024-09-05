@@ -1,0 +1,355 @@
+<!DOCTYPE html>
+
+<html lang="es">
+    <head>
+      <style>
+        @import url('https://fonts.googleapis.com/css2?family=Barlow+Condensed:ital,wght@1,500&family=Lilita+One&display=swap');
+        </style>        
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <title>Todos viajamos</title>
+        <meta name="description" content="Todos viajamos. Viajes terrestres, aereos y escapadas">
+        <meta name="keywords" content="Todos viajamos">
+        <meta name="author" content="Santiago Bazet Ezequiel Sale">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link rel="stylesheet" href="../assets/css/styles.css">
+        <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+        <link 
+        href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/css/bootstrap.min.css" 
+        rel="stylesheet" 
+        integrity="sha384-4bw+/aepP/YC94hEpVNVgiZdgIC5+VKNBQNGCHeKRQN+PtmoHDEXuppvnDJzQIu9" 
+        crossorigin="anonymous"
+        >
+        <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Titillium+Web:ital,wght@0,600;1,300&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="../assets/css/stylesQuienesSomos.css">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/js/bootstrap.bundle.min.js" integrity="sha384-HwwvtgBNo3bZJJLYd8oVXjrBZt8cqVSpeBNS5n7C8IVInixGAoxmnlMuBnhbgrkm" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.5/font/bootstrap-icons.css">
+
+  </head>
+    <body>
+        <header class="mb-0">
+            
+            <nav class="navbar navbar-expand-lg bg-dark border-bottom border-body animacion-nav" data-bs-theme="dark">
+                <div class="container-fluid">
+                  <a class="navbar-brand nav-item" href="../index.html">
+                    <img src="../assets/images/logo2.png" alt="Logo Todos viajamos" width="100" height="100" class="rounded-circle">
+                  </a>
+                  <t class="nombre-navbar text-uppercase fw-semibold text-end" href="#" style="font-family: 'Barlow Condensed', sans-serif; font-weight: 600;">Todos viajamos</t>
+                  <button class="navbar-toggler bg-body" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                  </button>
+                  <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                    <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                      <li class="nav-item" style="font-size: 20px; font-family: 'Barlow Condensed', sans-serif; font-weight: 200;">
+                        <a class="nav-link active text-white" aria-current="page" href="../index.html">Home</a>
+                      </li>
+                      <li class="nav-item" style="font-size: 20px; font-family: 'Barlow Condensed', sans-serif; font-weight: 200;">
+                        <a class="nav-link text-white" href="./quienesSomos.html">Quiénes somos</a>
+                      </li>
+                      <li class="nav-item" style="font-size: 20px; font-family: 'Barlow Condensed', sans-serif; font-weight: 200;">
+                        <a class="nav-link text-white" href="./ubicacion.html">Ubicación</a>
+                      </li>
+                      <li class="nav-item" style="font-size: 20px; font-family: 'Barlow Condensed', sans-serif; font-weight: 200;">
+                        <a class="nav-link text-white" href="./contratar.html">Contratar</a>
+                      </li>
+                      <li class="nav-item dropdown" style="font-size: 20px; font-family: 'Barlow Condensed', sans-serif; font-weight: 200;">
+                        <a class=" text-white nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                          Destinos
+                        </a>
+                        <ul class="dropdown-menu dropdown-menu-dark" style="font-size: 20px; font-family: 'Barlow Condensed', sans-serif; font-weight: 200;">
+                          <li><a class="dropdown-item" href="./destinosAereos.html">Destinos Aereos</a></li>
+                          <li><a class="dropdown-item" href="./destinosTerrestres.html">Destinos Terrestres</a></li>
+                          <li><hr class="dropdown-divider"></li>
+                          <li><a class="dropdown-item" href="./escapadas.html">Escapadas</a></li>
+                        </ul>
+                      </li>
+                    </ul>
+                  </div>
+                </div>
+              </nav>
+        </header>
+
+        <nav aria-label="breadcrumb" class="p-2">
+          <ol class="breadcrumb">
+            <li class="breadcrumb-item"><a href="../index.html" style="color: black ;">Home</a></li>
+            <li class="breadcrumb-item active" aria-current="page">Escapadas</li>
+          </ol>
+        </nav>
+       
+        <main>
+            <section class="container mt-5">
+                <h2 class="text-center mb-4" style="font-size: 48px; font-family: 'Barlow Condensed', sans-serif; font-weight: 450;">En Oferta</h2>
+                <div id="carouselOfertasDestacadas" class="carousel slide" data-bs-ride="carousel">
+        
+                  <ol class="carousel-indicators">
+                    <li data-target="#carouselOfertasDestacadas" data-bs-slide-to="0" aria-label="Slide 1" class="active"></li>
+                    <li data-target="#carouselOfertasDestacadas" data-bs-slide-to="1" aria-label="Slide 2"></li>
+                    <li data-target="#carouselOfertasDestacadas" data-bs-slide-to="2" aria-label="Slide 3"></li>
+                </ol>
+            
+        
+                    <div class="carousel-inner">
+        
+                        <div class="carousel-item active" data-bs-interval="10000">
+                            <img src="../assets/images/Dolores.jpg" class="d-block w-100" alt="Oferta 1" style="max-height: 300px; object-fit: cover; border-radius: 40px;">
+                            <div class="carousel-caption">
+                                <h3>Dolores, Uruguay</h3>
+                                <div style="background-color: white; display: inline-block; padding: 5px 15px; border-radius: 5px; text-align: center;">
+                                    <p class="text-muted" style="margin: 0;"><del>$100</del> <span class="text-danger">$80</span></p>
+                                </div>
+                            </div>
+                        </div>
+                        
+                        <div class="carousel-item" data-bs-interval="10000">
+                            <img src="../assets/images/Federacion.jpg" class="d-block w-100" alt="Oferta 2" style="max-height: 300px; object-fit: cover; border-radius: 40px;">
+                            <div class="carousel-caption">
+                                <h3>Federación, Argentina</h3>
+                                <div style="background-color: white; display: inline-block; padding: 5px 15px; border-radius: 5px; text-align: center;">
+                                    <p class="text-muted" style="margin: 0;"><del>$300</del> <span class="text-danger">$180</span></p>
+                                </div>
+                            </div>
+                        </div>
+                        
+                        <div class="carousel-item" data-bs-interval="10000">
+                            <img src="../assets/images/Cordoba.jpg" class="d-block w-100" alt="Oferta 3" style="max-height: 300px; object-fit: cover; border-radius: 40px;">
+                            <div class="carousel-caption">
+                                <h3>Córdoba, Argentina</h3>
+                                <div style="background-color: white; display: inline-block; padding: 5px 15px; border-radius: 5px; text-align: center;">
+                                    <p class="text-muted" style="margin: 0;"><del>$500</del> <span class="text-danger">$350</span></p>
+                                </div>
+                            </div>
+                        </div>
+                        
+                        
+        
+                    <a class="carousel-control-prev" href="#carouselOfertasDestacadas" role="button" data-bs-slide="prev">
+                      <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                      <span class="visually-hidden">Anterior</span>
+                  </a>
+                  <a class="carousel-control-next" href="#carouselOfertasDestacadas" role="button" data-bs-slide="next">
+                      <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                      <span class="visually-hidden">Siguiente</span>
+                  </a>
+                </div>
+            </section>
+    
+    
+    
+    
+    
+    
+            <section class="container mt-5">
+                <h2 class="text-center mb-4" style="font-size: 48px; font-family: 'Barlow Condensed', sans-serif; font-weight: 450;">Destinos Turísticos</h2>
+                <div class="row" style="font-family: 'Barlow Condensed', sans-serif; font-weight: 450;"> 
+          
+                    
+          
+                    
+          
+                  <div class="col-md-4 mb-4">
+                    <div class="card rounded-30 h-100">
+                        <img src="../assets/images/Guaviyú.jpg" class="card-img-top img-fluid" alt="Entre Rios, Argentina" style="height: 200px; object-fit: cover;">
+                        <div class="card-body d-flex flex-column justify-content-between">
+                            <h5 class="card-title">Guaviyú, Argentina</h5>
+                            <p class="card-text">Precio: $250</p>
+                            <p class="card-text">Detalles del hospedaje: Habitaciones cómodas con vistas panorámicas. Piscina al aire libre y restaurante en el lugar.</p>
+                            <p class="card-text">Accesibilidad: El hotel cuenta con rampas para discapacitados en áreas comunes.</p>
+                            <p class="card-text">Restaurantes: Restaurantes locales y opciones de cocina argentina.</p>
+                            <p class="card-text">Transporte: Alquiler de bicicletas y transporte público cercano.</p>
+                            <p class="card-text">Atracciones Turísticas: Termas de Guaviyú y actividades al aire libre.</p>
+                            <a href="../pages/contratar.html" class="btn btn-primary btn-block mt-auto mx-auto">Contratar</a>
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="col-md-4 mb-4">
+                    <div class="card rounded-30 h-100">
+                        <img src="../assets/images/PuntaEste.jpg" class="card-img-top img-fluid" alt="Florianopolis, Brasil" style="height: 200px; object-fit: cover;">
+                        <div class="card-body d-flex flex-column justify-content-between">
+                            <h5 class="card-title">Punta del Este, Uruguay</h5>
+                            <p class="card-text">Precio: $300</p>
+                            <p class="card-text">Detalles del hospedaje: Lujoso resort frente a la playa con spa y restaurantes de clase mundial.</p>
+                            <p class="card-text">Accesibilidad: El resort ofrece instalaciones accesibles para personas con discapacidad.</p>
+                            <p class="card-text">Restaurantes: Restaurantes de alta cocina y opciones internacionales.</p>
+                            <p class="card-text">Transporte: Alquiler de autos y transporte público disponibles.</p>
+                            <p class="card-text">Atracciones Turísticas: Playas, vida nocturna y Punta Ballena.</p>
+                            <a href="../pages/contratar.html" class="btn btn-primary btn-block mt-auto mx-auto">Contratar</a>
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="col-md-4 mb-4">
+                    <div class="card rounded-30 h-100">
+                        <img src="../assets/images/VillaElisa.jpg" class="card-img-top img-fluid" alt="Salto, Uruguay" style="height: 200px; object-fit: cover;">
+                        <div class="card-body d-flex flex-column justify-content-between">
+                            <h5 class="card-title">Villa Elisa, Argentina</h5>
+                            <p class="card-text">Precio: $280</p>
+                            <p class="card-text">Detalles del hospedaje: Alojamiento acogedor con jardines exuberantes y áreas de picnic.</p>
+                            <p class="card-text">Accesibilidad: El hotel dispone de rampas para discapacitados en la entrada principal.</p>
+                            <p class="card-text">Restaurantes: Comida regional y parrillas locales.</p>
+                            <p class="card-text">Transporte: Estacionamiento y acceso a rutas principales.</p>
+                            <p class="card-text">Atracciones Turísticas: Termas de Villa Elisa y actividades al aire libre.</p>
+                            <a href="../pages/contratar.html" class="btn btn-primary btn-block mt-auto mx-auto">Contratar</a>
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="col-md-4 mb-4">
+                    <div class="card rounded-30 h-100">
+                        <img src="../assets/images/LaPaloma.jpg" class="card-img-top img-fluid" alt="Gualeguaychú, Argentina" style="height: 200px; object-fit: cover;">
+                        <div class="card-body d-flex flex-column justify-content-between">
+                            <h5 class="card-title">La Paloma, Uruguay</h5>
+                            <p class="card-text">Precio: $100</p>
+                            <p class="card-text">Detalles del hospedaje: Cabañas acogedoras a poca distancia de la playa. Área de parrillas y estacionamiento gratuito.</p>
+                            <p class="card-text">Accesibilidad: El complejo de cabañas es accesible para personas con discapacidad, con rampas y baños adaptados.</p>
+                            <p class="card-text">Restaurantes: Opciones de mariscos y restaurantes locales.</p>
+                            <p class="card-text">Transporte: A poca distancia de las playas y fácil acceso en coche.</p>
+                            <p class="card-text">Atracciones Turísticas: Playas, faro y actividades acuáticas.</p>
+                            <a href="../pages/contratar.html" class="btn btn-primary btn-block mt-auto mx-auto">Contratar</a>
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="col-md-4 mb-4">
+                    <div class="card rounded-30 h-100">
+                        <img src="../assets/images/Colón.jpg" class="card-img-top img-fluid" alt="Bariloche, Argentina" style="height: 200px; object-fit: cover;">
+                        <div class="card-body d-flex flex-column justify-content-between">
+                            <h5 class="card-title">Colón, Argentina</h5>
+                            <p class="card-text">Precio: $400</p>
+                            <p class="card-text">Detalles del hospedaje: Hotel boutique con spa y restaurante gourmet. Habitaciones elegantes con vista al río.</p>
+                            <p class="card-text">Accesibilidad: El hotel es accesible para personas con discapacidad, con ascensores y habitaciones adaptadas.</p>
+                            <p class="card-text">Restaurantes: Restaurantes de alta cocina y opciones de parrilla argentina.</p>
+                            <p class="card-text">Transporte: Estacionamiento y fácil acceso a las principales rutas.</p>
+                            <p class="card-text">Atracciones Turísticas: Termas de Colón, río Uruguay y actividades al aire libre.</p>
+                            <a href="../pages/contratar.html" class="btn btn-primary btn-block mt-auto mx-auto">Contratar</a>
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="col-md-4 mb-4">
+                    <div class="card rounded-30 h-100">
+                        <img src="../assets/images/PuntadelDiablo.jpg" class="card-img-top img-fluid" alt="Buenos Aires, Argentina" style="height: 200px; object-fit: cover;">
+                        <div class="card-body d-flex flex-column justify-content-between">
+                            <h5 class="card-title">Punta del Diablo, Uruguay</h5>
+                            <p class="card-text">Precio: $350</p>
+                            <p class="card-text">Detalles del hospedaje: Hostal junto a la playa con ambiente relajado. Zona de fogatas y alquiler de tablas de surf.</p>
+                            <p class="card-text">Accesibilidad: El hostal ofrece accesibilidad para personas con discapacidad, con rampas y baños adaptados.</p>
+                            <p class="card-text">Restaurantes: Opciones de mariscos y restaurantes locales.</p>
+                            <p class="card-text">Transporte: A poca distancia de la playa y fácil acceso en coche.</p>
+                            <p class="card-text">Atracciones Turísticas: Playas, surf y actividades al aire libre.</p>
+                            <a href="../pages/contratar.html" class="btn btn-primary btn-block mt-auto mx-auto">Contratar</a>
+                        </div>
+                    </div>
+                </div>
+                
+
+                
+                
+                
+    
+    
+        </main>
+
+
+          <footer class="text-center text-lg-start bg-dark text-dark" style="font-family: 'Barlow Condensed', sans-serif; font-weight: 300;">
+
+            <section>
+              <section class="border-top">
+                <div class="container text-center text-md-start mt-5 text-white">
+                    <div class="row mt-3">
+
+                        <section class="col-sm-12 col-lg-5 text-lg-start text-md-center mb-5">
+                          <h6 class="text-uppercase fw-bold mb-4">Todos viajamos</h6>
+                          <p class="fst-italic fw-bolder">
+                            ¡Descubre el mundo con nosotros! Somos tu puerta a experiencias de viaje únicas y 
+                            personalizadas. Desde playas paradisíacas hasta aventuras en destinos exóticos, estamos aquí para hacer 
+                            tus sueños de viaje realidad. Tu próxima aventura comienza aquí.
+                          </p> 
+                           <div class="mt-6 ms-sm-auto">
+                            <a href="#" class="btn btn-dark btn-md me-1 ps-3" aria-label=".">
+                              <i class="bi bi-facebook"></i>
+                            </a>
+                            <a href="#" class="btn btn-dark btn-md me-1 ps-3" aria-label=".">
+                              <i class="bi bi-instagram"></i>
+                            </a>
+                            <a href="#" class="btn btn-dark btn-md me-1 ps-3" aria-label=".">
+                              <i class="bi bi-whatsapp"></i>
+                            </a>
+                           </div>
+                        </section>
+
+                        <section class="col-md-4 col-lg-3 text-lg-start text-md-center mb-5">
+                          <h6 class="text-uppercase fw-bold mb-4">Secciones</h6>
+                          <p>
+                            <a href="../index.html" class="text-white">Home</a>
+                          </p>
+                          <p>
+                            <a href="./quienesSomos.html" class="text-white">Quiénes Somos</a>
+                          </p>
+                          <p>
+                            <a href="./ubicacion.html" class="text-white">Ubicación</a>
+                          </p>
+                          <p>
+                            <a href="./contratar.html" class="text-white">Contratar</a>
+                          </p>
+                          <p>
+                            <a href="./destinosAereos.html" class="text-white">Destinos Aéreos</a>
+                          </p>
+                          <p>
+                            <a href="./destinosTerrestres.html" class="text-white">Destinos Terrestres</a>
+                          </p>
+                          <p>
+                            <a href="#" class="text-white">Escapadas</a>
+                          </p>
+                        </section>
+
+                        <section class="col-md-12 col-lg-4 text-lg-start text-md-center mb-5">
+                          <h6 class="text-uppercase fw-bold mb-4">Informacion de Contacto</h6>
+                          <p>
+                            <i class="bi bi-geo-alt-fill me-2"></i>
+                            18 de Julio 409, 70000 Col. del Sacramento, Departamento de Colonia, Uruguay
+                          </p>
+                          <p>
+                            <i class="bi bi-geo-alt-fill me-2"></i>
+                            Av. Raúl Scalabrini Ortiz 2338, C1425DBR CABA, Argentina
+                          </p>
+                          <p>
+                            <i class="bi bi-mailbox me-2"></i>
+                            contactoTodosViajamos@gmail.com
+                          </p>
+                          <p>
+                            <i class="bi bi-telephone-fill me-2"></i>
+                            (+598) 91 434 312 (Uruguay)
+                          </p>
+                          <p>
+                            <i class="bi bi-telephone-fill me-2"></i>
+                            (+54) 11 8721 2802 (Argentina)
+                          </p>
+                          <p>
+                            <i class="bi bi-telephone me-2"></i>
+                            4552 2802 (Uruguay)
+                          </p>
+                          <p>
+                            <i class="bi bi-telephone me-2"></i>
+                            (+54) 9 321 421 9825 (Argentina)
+                          </p>
+                        </section>
+                    </div>
+                </div>
+              </section>
+            </section>
+            <section class="container-fluid bg-darkmb-2 mt-2">
+              <div class="row">
+                <div class="col">
+                  <p class="text-center text-muted"><span class="text-white">Desarrollado por el Taller de Usabilidad y Accesibildad de CTC - </span> <span class=" text-white fw-bold"> Agosto de 2023</span></p>
+                </div>
+              </div>
+            </section>
+        </footer>
+    </body>
+</html>

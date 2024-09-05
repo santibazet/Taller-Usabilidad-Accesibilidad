@@ -1,0 +1,481 @@
+<!DOCTYPE html>
+
+<html lang="es">
+    <head>
+      <style>
+        @import url('https://fonts.googleapis.com/css2?family=Barlow+Condensed:ital,wght@1,500&family=Lilita+One&display=swap');
+        </style>        
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <title>Todos viajamos</title>
+        <meta name="description" content="Todos viajamos. Viajes terrestres, aereos y escapadas">
+        <meta name="keywords" content="Todos viajamos">
+        <meta name="author" content="Santiago Bazet Ezequiel Sale">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link rel="stylesheet" href="../assets/css/styles.css">
+        <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+        <link 
+        href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/css/bootstrap.min.css" 
+        rel="stylesheet" 
+        integrity="sha384-4bw+/aepP/YC94hEpVNVgiZdgIC5+VKNBQNGCHeKRQN+PtmoHDEXuppvnDJzQIu9" 
+        crossorigin="anonymous"
+        >
+        <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Titillium+Web:ital,wght@0,600;1,300&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="../assets/css/stylesQuienesSomos.css">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/js/bootstrap.bundle.min.js" integrity="sha384-HwwvtgBNo3bZJJLYd8oVXjrBZt8cqVSpeBNS5n7C8IVInixGAoxmnlMuBnhbgrkm" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.5/font/bootstrap-icons.css">
+
+  </head>
+    <body>
+        <header class="mb-0">
+            
+            <nav class="navbar navbar-expand-lg bg-dark border-bottom border-body animacion-nav" data-bs-theme="dark">
+                <div class="container-fluid">
+                  <a class="navbar-brand nav-item" href="../index.html">
+                    <img src="../assets/images/logo2.png" alt="Logo Todos viajamos" width="100" height="100" class="rounded-circle">
+                  </a>
+                  <t class="nombre-navbar text-uppercase fw-semibold text-end" href="#" style="font-family: 'Barlow Condensed', sans-serif; font-weight: 600;">Todos viajamos</t>
+                  <button class="navbar-toggler bg-body" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                  </button>
+                  <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                    <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                      <li class="nav-item" style="font-size: 20px; font-family: 'Barlow Condensed', sans-serif; font-weight: 200;">
+                        <a class="nav-link active text-white" aria-current="page" href="../index.html">Home</a>
+                      </li>
+                      <li class="nav-item" style="font-size: 20px; font-family: 'Barlow Condensed', sans-serif; font-weight: 200;">
+                        <a class="nav-link text-white" href="./quienesSomos.html">Quiénes somos</a>
+                      </li>
+                      <li class="nav-item" style="font-size: 20px; font-family: 'Barlow Condensed', sans-serif; font-weight: 200;">
+                        <a class="nav-link text-white" href="./ubicacion.html">Ubicación</a>
+                      </li>
+                      <li class="nav-item" style="font-size: 20px; font-family: 'Barlow Condensed', sans-serif; font-weight: 200;">
+                        <a class="nav-link text-white" href="./contratar.html">Contratar</a>
+                      </li>
+                      <li class="nav-item dropdown" style="font-size: 20px; font-family: 'Barlow Condensed', sans-serif; font-weight: 200;">
+                        <a class=" text-white nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                          Destinos
+                        </a>
+                        <ul class="dropdown-menu dropdown-menu-dark" style="font-size: 20px; font-family: 'Barlow Condensed', sans-serif; font-weight: 200;">
+                          <li><a class="dropdown-item" href="./destinosAereos.html">Destinos Aereos</a></li>
+                          <li><a class="dropdown-item" href="./destinosTerrestres.html">Destinos Terrestres</a></li>
+                          <li><hr class="dropdown-divider"></li>
+                          <li><a class="dropdown-item" href="./escapadas.html">Escapadas</a></li>
+                        </ul>
+                      </li>
+                    </ul>
+                  </div>
+                </div>
+              </nav>
+        </header>
+       
+        <nav aria-label="breadcrumb" class="p-2">
+          <ol class="breadcrumb">
+            <li class="breadcrumb-item"><a href="../index.html" style="color: black ;">Home</a></li>
+            <li class="breadcrumb-item active" aria-current="page">Destinos Aereos</li>
+          </ol>
+        </nav>
+        
+        <section class="container mt-5">
+            <h2 class="text-center mb-4" style="font-size: 48px; font-family: 'Barlow Condensed', sans-serif; font-weight: 450;">En Oferta</h2>
+            <div id="carouselOfertasDestacadas" class="carousel slide" data-bs-ride="carousel">
+    
+              <ol class="carousel-indicators">
+                <li data-target="#carouselOfertasDestacadas" data-bs-slide-to="0" aria-label="Slide 1" class="active"></li>
+                <li data-target="#carouselOfertasDestacadas" data-bs-slide-to="1" aria-label="Slide 2"></li>
+                <li data-target="#carouselOfertasDestacadas" data-bs-slide-to="2" aria-label="Slide 3"></li>
+                <li data-target="#carouselOfertasDestacadas" data-bs-slide-to="3" aria-label="Slide 4"></li>
+                <li data-target="#carouselOfertasDestacadas" data-bs-slide-to="4" aria-label="Slide 5"></li>
+            </ol>
+        
+    
+                <div class="carousel-inner">
+    
+                    <div class="carousel-item active" data-bs-interval="10000">
+                        <img src="../assets/images/Berna.jpg" class="d-block w-100" alt="Oferta 1" style="max-height: 300px; object-fit: cover; border-radius: 40px;">
+                        <div class="carousel-caption">
+                            <h3>Berna, Suiza</h3>
+                            <div style="background-color: white; display: inline-block; padding: 5px 15px; border-radius: 5px; text-align: center;">
+                                <p class="text-muted" style="margin: 0;"><del>$1800</del> <span class="text-danger">$1300</span></p>
+                            </div>
+                        </div>
+                    </div>
+                    
+                    <div class="carousel-item" data-bs-interval="10000">
+                        <img src="../assets/images/CanadaToronto.jpg" class="d-block w-100" alt="Oferta 2" style="max-height: 300px; object-fit: cover; border-radius: 40px;">
+                        <div class="carousel-caption">
+                            <h3>Toronto, Canada</h3>
+                            <div style="background-color: white; display: inline-block; padding: 5px 15px; border-radius: 5px; text-align: center;">
+                                <p class="text-muted" style="margin: 0;"><del>$1400</del> <span class="text-danger">$900</span></p>
+                            </div>
+                        </div>
+                    </div>
+                    
+                    <div class="carousel-item" data-bs-interval="10000">
+                        <img src="../assets/images/Tailandia.jpg" class="d-block w-100" alt="Oferta 3" style="max-height: 300px; object-fit: cover; border-radius: 40px;">
+                        <div class="carousel-caption">
+                            <h3>Bangkok, Tailandia</h3>
+                            <div style="background-color: white; display: inline-block; padding: 5px 15px; border-radius: 5px; text-align: center;">
+                                <p class="text-muted" style="margin: 0;"><del>$800</del> <span class="text-danger">$600</span></p>
+                            </div>
+                        </div>
+                    </div>
+                    
+                    <div class="carousel-item" data-bs-interval="10000">
+                        <img src="../assets/images/OrlandoEstadosUnidos.jpg" class="d-block w-100" alt="Oferta 4" style="max-height: 300px; object-fit: cover; border-radius: 40px;">
+                        <div class="carousel-caption">
+                            <h3>Orlando, Estados Unidos</h3>
+                            <div style="background-color: white; display: inline-block; padding: 5px 15px; border-radius: 5px; text-align: center;">
+                                <p class="text-muted" style="margin: 0;"><del>$1600</del> <span class="text-danger">$1400</span></p>
+                            </div>
+                        </div>
+                    </div>
+                    
+                    <div class="carousel-item" data-bs-interval="10000">
+                        <img src="../assets/images/newZ.jpg" class="d-block w-100" alt="Oferta 5" style="max-height: 300px; object-fit: cover; border-radius: 40px;">
+                        <div class="carousel-caption">
+                            <h3>Auckland, Nueva Zelanda</h3>
+                            <div style="background-color: white; display: inline-block; padding: 5px 15px; border-radius: 5px; text-align: center;">
+                                <p class="text-muted" style="margin: 0;"><del>$1100</del> <span class="text-danger">$950</span></p>
+                            </div>
+                        </div>
+                    </div>
+    
+                <a class="carousel-control-prev" href="#carouselOfertasDestacadas" role="button" data-bs-slide="prev">
+                  <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                  <span class="visually-hidden">Anterior</span>
+              </a>
+              <a class="carousel-control-next" href="#carouselOfertasDestacadas" role="button" data-bs-slide="next">
+                  <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                  <span class="visually-hidden">Siguiente</span>
+              </a>
+            </div>
+        </section>
+    
+
+
+
+
+
+
+        <section class="container mt-5">
+            <h2 class="text-center mb-4" style="font-size: 48px; font-family: 'Barlow Condensed', sans-serif; font-weight: 450;">Destinos Aéreos</h2>
+            <div class="row" style="font-family: 'Barlow Condensed', sans-serif; font-weight: 450;"> 
+      
+
+                
+
+             <!-- Tarjeta para Cancún, México -->
+            <div class="col-md-4 mb-4">
+              <div class="card rounded-30 h-100">
+                <img src="../assets/images/cancun.jpg" class="card-img-top img-fluid" alt="Cancún, México" style="height: 200px; object-fit: cover;">
+                <div class="card-body d-flex flex-column justify-content-between">
+                  <h5 class="card-title">Cancún, México</h5>
+                  <p class="card-text">Precio: $1200</p>
+                  <p class="card-text">Detalles del hospedaje: Resort de lujo en la playa con piscinas y restaurantes de clase mundial.</p>
+                  <p class="card-text">Accesibilidad: El resort cuenta con instalaciones accesibles para personas con discapacidad.</p>
+                  <p class="card-text">Restaurantes: Variedad de restaurantes internacionales y locales en las cercanías.</p>
+                  <p class="card-text">Transporte: Servicio de transporte al aeropuerto y fácil acceso a taxis.</p>
+                  <p class="card-text">Atracciones Turísticas: Excursiones a las ruinas mayas y actividades acuáticas.</p>
+                  <a href="./contratar.html" class="btn btn-primary btn-block mt-auto mx-auto">Contratar</a>
+                </div>
+              </div>
+            </div>
+
+            <!-- Tarjeta para París, Francia -->
+            <div class="col-md-4 mb-4">
+              <div class="card rounded-30 h-100">
+                <img src="../assets/images/paris.jpg" class="card-img-top img-fluid" alt="París, Francia" style="height: 200px; object-fit: cover;">
+                <div class="card-body d-flex flex-column justify-content-between">
+                  <h5 class="card-title">París, Francia</h5>
+                  <p class="card-text">Precio: $1500</p>
+                  <p class="card-text">Detalles del hospedaje: Hotel boutique en el centro de la ciudad con encanto parisino.</p>
+                  <p class="card-text">Accesibilidad: Habitaciones y baños adaptados para personas con discapacidad.</p>
+                  <p class="card-text">Restaurantes: Restaurantes gourmet y cafés históricos a poca distancia.</p>
+                  <p class="card-text">Transporte: Estaciones de metro cercanas y servicio de bicicletas.</p>
+                  <p class="card-text">Atracciones Turísticas: Museos, la Torre Eiffel y paseos en barco por el Sena.</p>
+                  <a href="./contratar.html" class="btn btn-primary btn-block mt-auto mx-auto">Contratar</a>
+                </div>
+              </div>
+            </div>
+
+            <!-- Tarjeta para Roma, Italia -->
+            <div class="col-md-4 mb-4">
+              <div class="card rounded-30 h-100">
+                <img src="../assets/images/roma.jpg" class="card-img-top img-fluid" alt="Roma, Italia" style="height: 200px; object-fit: cover;">
+                <div class="card-body d-flex flex-column justify-content-between">
+                  <h5 class="card-title">Roma, Italia</h5>
+                  <p class="card-text">Precio: $1400</p>
+                  <p class="card-text">Detalles del hospedaje: Hotel histórico en el corazón de Roma, cerca de los principales lugares de interés.</p>
+                  <p class="card-text">Accesibilidad: El hotel dispone de instalaciones accesibles para personas con discapacidad.</p>
+                  <p class="card-text">Restaurantes: Trattorias y restaurantes familiares con auténtica comida italiana.</p>
+                  <p class="card-text">Transporte: A poca distancia de paradas de autobús y estaciones de tren.</p>
+                  <p class="card-text">Atracciones Turísticas: El Coliseo, el Vaticano y la Fontana di Trevi.</p>
+                  <a href="./contratar.html" class="btn btn-primary btn-block mt-auto mx-auto">Contratar</a>
+                </div>
+              </div>
+            </div>
+
+            <!-- Tarjeta para Nueva York, EE. UU. -->
+            <div class="col-md-4 mb-4">
+              <div class="card rounded-30 h-100">
+                <img src="../assets/images/nuevayork.jpg" class="card-img-top img-fluid" alt="Nueva York, EE. UU." style="height: 200px; object-fit: cover;">
+                <div class="card-body d-flex flex-column justify-content-between">
+                  <h5 class="card-title">Nueva York, EE. UU.</h5>
+                  <p class="card-text">Precio: $1800</p>
+                  <p class="card-text">Detalles del hospedaje: Hotel de lujo en Manhattan con vistas panorámicas de la ciudad.</p>
+                  <p class="card-text">Accesibilidad: Señalización clara y fácil de entender.</p>
+                  <p class="card-text">Restaurantes: Restaurantes de alta cocina y delicias de la calle en cada esquina.</p>
+                  <p class="card-text">Transporte: Fácil acceso a metro, taxis y servicios de transporte compartido.</p>
+                  <p class="card-text">Atracciones Turísticas: Times Square, Central Park y museos de renombre.</p>
+                  <a href="./contratar.html" class="btn btn-primary btn-block mt-auto mx-auto">Contratar</a>
+                </div>
+              </div>
+            </div>
+
+            <!-- Tarjeta para Bali, Indonesia -->
+            <div class="col-md-4 mb-4">
+              <div class="card rounded-30 h-100">
+                <img src="../assets/images/BALI.jpg" class="card-img-top img-fluid" alt="Bali, Indonesia" style="height: 200px; object-fit: cover;">
+                <div class="card-body d-flex flex-column justify-content-between">
+                  <h5 class="card-title">Bali, Indonesia</h5>
+                  <p class="card-text">Precio: $1600</p>
+                  <p class="card-text">Detalles del hospedaje: Resort junto a la playa con spa y actividades acuáticas.</p>
+                  <p class="card-text">Accesibilidad: Señalización en braille y altorrelieve, iluminación adecuada.</p>
+                  <p class="card-text">Restaurantes: Comida balinesa tradicional y cocina internacional.</p>
+                  <p class="card-text">Transporte: Alquiler de scooters y transporte privado disponible.</p>
+                  <p class="card-text">Atracciones Turísticas: Templos, playas y experiencias culturales únicas.</p>
+                  <a href="./contratar.html" class="btn btn-primary btn-block mt-auto mx-auto">Contratar</a>
+                </div>
+              </div>
+            </div>
+
+            <!-- Tarjeta para Santorini, Grecia -->
+            <div class="col-md-4 mb-4">
+              <div class="card rounded-30 h-100">
+                <img src="../assets/images/santorini.jpg" class="card-img-top img-fluid" alt="Santorini, Grecia" style="height: 200px; object-fit: cover;">
+                <div class="card-body d-flex flex-column justify-content-between">
+                  <h5 class="card-title">Santorini, Grecia</h5>
+                  <p class="card-text">Precio: $1700</p>
+                  <p class="card-text">Detalles del hospedaje: Hotel boutique en la isla de Santorini con vistas al mar Egeo.</p>
+                  <p class="card-text">Accesibilidad: Instalaciones accesibles con rampas y puertas amplias.</p>
+                  <p class="card-text">Restaurantes: Restaurantes junto al mar y tabernas locales.</p>
+                  <p class="card-text">Transporte: Servicio de ferry y alquiler de vehículos disponibles.</p>
+                  <p class="card-text">Atracciones Turísticas: Atardecer en Oia y visitas a bodegas de vinos locales.</p>
+                  <a href="./contratar.html" class="btn btn-primary btn-block mt-auto mx-auto">Contratar</a>
+                </div>
+              </div>
+            </div>
+
+            <!-- Tarjeta para Kyoto, Japón -->
+            <div class="col-md-4 mb-4">
+              <div class="card rounded-30 h-100">
+                <img src="../assets/images/kyoto.jpg" class="card-img-top img-fluid" alt="Kyoto, Japón" style="height: 200px; object-fit: cover;">
+                <div class="card-body d-flex flex-column justify-content-between">
+                  <h5 class="card-title">Kyoto, Japón</h5>
+                  <p class="card-text">Precio: $1700</p>
+                  <p class="card-text">Detalles del hospedaje: Ryokan tradicional japonés en el corazón de Kyoto.</p>
+                  <p class="card-text">Accesibilidad: El ryokan ofrece instalaciones accesibles para personas con discapacidad.</p>
+                  <p class="card-text">Restaurantes: Exquisita cocina kaiseki y restaurantes de fideos soba.</p>
+                  <p class="card-text">Transporte: Cerca de estaciones de tren y autobús para explorar la ciudad.</p>
+                  <p class="card-text">Atracciones Turísticas: Templos, jardines y el bosque de bambú de Arashiyama.</p>
+                  <a href="./contratar.html" class="btn btn-primary btn-block mt-auto mx-auto">Contratar</a>
+                </div>
+              </div>
+            </div>
+
+            <!-- Tarjeta para Sidney, Australia -->
+            <div class="col-md-4 mb-4">
+              <div class="card rounded-30 h-100">
+                <img src="../assets/images/sydney.jpg" class="card-img-top img-fluid" alt="Sidney, Australia" style="height: 200px; object-fit: cover;">
+                <div class="card-body d-flex flex-column justify-content-between">
+                  <h5 class="card-title">Sidney, Australia</h5>
+                  <p class="card-text">Precio: $1900</p>
+                  <p class="card-text">Detalles del hotel: Hotel contemporáneo en el puerto de Sidney con vistas espectaculares.</p>
+                  <p class="card-text">Accesibilidad: Señalización clara y rampas en toda la instalación.</p>
+                  <p class="card-text">Restaurantes: Restaurantes frente al mar y opciones de mariscos frescos.</p>
+                  <p class="card-text">Transporte: A poca distancia de ferris y transporte público.</p>
+                  <p class="card-text">Atracciones Turísticas: Ópera de Sídney, playas y senderismo en el puerto.</p>
+                  <a href="./contratar.html" class="btn btn-primary btn-block mt-auto mx-auto">Contratar</a>
+                </div>
+              </div>
+            </div>
+
+            <!-- Tarjeta para Ámsterdam, Países Bajos -->
+            <div class="col-md-4 mb-4">
+              <div class="card rounded-30 h-100">
+                <img src="../assets/images/amsterdam.jpg" class="card-img-top img-fluid" alt="Ámsterdam, Países Bajos" style="height: 200px; object-fit: cover;">
+                <div class="card-body d-flex flex-column justify-content-between">
+                  <h5 class="card-title">Ámsterdam, Países Bajos</h5>
+                  <p class="card-text">Precio: $1600</p>
+                  <p class="card-text">Detalles del hospedaje: Hotel boutique en el centro de Ámsterdam, cerca de los canales.</p>
+                  <p class="card-text">Accesibilidad: El hotel dispone de puertas, baños y ascensores adaptados para personas discapacitadas.</p>
+                  <p class="card-text">Restaurantes: Cafés acogedores y restaurantes con vistas a los canales.</p>
+                  <p class="card-text">Transporte: Alquiler de bicicletas y sistema de tranvía conveniente.</p>
+                  <p class="card-text">Atracciones Turísticas: Museos, paseos en barco y el Barrio Rojo.</p>
+                  <a href="./contratar.html" class="btn btn-primary btn-block mt-auto mx-auto">Contratar</a>
+                </div>
+              </div>
+            </div>
+
+            <!-- Tarjeta para La Paz, Bolivia -->
+            <div class="col-md-4 mb-4">
+              <div class="card rounded-30 h-100">
+                <img src="../assets/images/lapaz.jpg" class="card-img-top img-fluid" alt="La Paz, Bolivia" style="height: 200px; object-fit: cover;">
+                <div class="card-body d-flex flex-column justify-content-between">
+                  <h5 class="card-title">La Paz, Bolivia</h5>
+                  <p class="card-text">Precio: $1700</p>
+                  <p class="card-text">Detalles del hospedaje: Hotel con vista a la ciudad de La Paz y comodidades modernas.</p>
+                  <p class="card-text">Accesibilidad: El hotel cuenta con rampas en las entradas y personal capacitado.</p>
+                  <p class="card-text">Restaurantes: Cocina boliviana y restaurantes internacionales en el centro.</p>
+                  <p class="card-text">Transporte: Fácil acceso a teleféricos y autobuses para explorar la ciudad.</p>
+                  <p class="card-text">Atracciones Turísticas: Mercado de las Brujas, Valle de la Luna y pueblos cercanos.</p>
+                  <a href="./contratar.html" class="btn btn-primary btn-block mt-auto mx-auto">Contratar</a>
+                </div>
+              </div>
+            </div>
+
+            <!-- Tarjeta para Dubái, Emiratos Árabes Unidos -->
+            <div class="col-md-4 mb-4">
+              <div class="card rounded-30 h-100">
+                <img src="../assets/images/dubai.jpg" class="card-img-top img-fluid" alt="Dubái, Emiratos Árabes Unidos" style="height: 200px; object-fit: cover;">
+                <div class="card-body d-flex flex-column justify-content-between">
+                  <h5 class="card-title">Dubái, Emiratos Árabes Unidos</h5>
+                  <p class="card-text">Precio: $2000</p>
+                  <p class="card-text">Detalles del hospedaje: Hotel de lujo en el centro de Dubái con vistas a los rascacielos.</p>
+                  <p class="card-text">Accesibilidad: El hotel dispone de habitaciones adaptadas con todas las facilidades.</p>
+                  <p class="card-text">Restaurantes: Restaurantes de clase mundial y cocina internacional.</p>
+                  <p class="card-text">Transporte: Taxis de lujo y transporte a las principales atracciones.</p>
+                  <p class="card-text">Atracciones Turísticas: Burj Khalifa, centros comerciales y safari en el desierto.</p>
+                  <a href="./contratar.html" class="btn btn-primary btn-block mt-auto mx-auto">Contratar</a>
+                </div>
+              </div>
+            </div>
+
+            <!-- Tarjeta para Santiago de Chile, Chile -->
+            <div class="col-md-4 mb-4">
+              <div class="card rounded-30 h-100">
+                <img src="../assets/images/santiago.jpg" class="card-img-top img-fluid" alt="Santiago de Chile, Chile" style="height: 200px; object-fit: cover;">
+                <div class="card-body d-flex flex-column justify-content-between">
+                  <h5 class="card-title">Santiago de Chile, Chile</h5>
+                  <p class="card-text">Precio: $950</p>
+                  <p class="card-text">Detalles del hospedaje: Hotel céntrico en Santiago con fácil acceso a las atracciones.</p>
+                  <p class="card-text">Accesibilidad: El hotel cuenta con señalización clara, rampas en el complejo y baños adaptados.</p>
+                  <p class="card-text">Restaurantes: Restaurantes con comida chilena y opciones internacionales.</p>
+                  <p class="card-text">Transporte: Metro y autobuses cercanos para explorar la ciudad.</p>
+                  <p class="card-text">Atracciones Turísticas: Cerro San Cristóbal, Plaza de Armas y bodegas de vino.</p>
+                  <a href="./contratar.html" class="btn btn-primary btn-block mt-auto mx-auto">Contratar</a>
+                </div>
+              </div>
+            </div>
+
+
+            
+        </section>
+
+
+
+
+
+          <footer class="text-center text-lg-start bg-dark text-dark" style="font-family: 'Barlow Condensed', sans-serif; font-weight: 300;">
+
+            <section>
+              <section class="border-top">
+                <div class="container text-center text-md-start mt-5 text-white">
+                    <div class="row mt-3">
+
+                        <section class="col-sm-12 col-lg-5 text-lg-start text-md-center mb-5">
+                          <h6 class="text-uppercase fw-bold mb-4">Todos viajamos</h6>
+                          <p class="fst-italic fw-bolder">
+                            ¡Descubre el mundo con nosotros! Somos tu puerta a experiencias de viaje únicas y 
+                            personalizadas. Desde playas paradisíacas hasta aventuras en destinos exóticos, estamos aquí para hacer 
+                            tus sueños de viaje realidad. Tu próxima aventura comienza aquí.
+                          </p> 
+                           <div class="mt-6 ms-sm-auto">
+                            <a href="#" class="btn btn-dark btn-md me-1 ps-3" aria-label=".">
+                              <i class="bi bi-facebook"></i>
+                            </a>
+                            <a href="#" class="btn btn-dark btn-md me-1 ps-3" aria-label=".">
+                              <i class="bi bi-instagram"></i>
+                            </a>
+                            <a href="#" class="btn btn-dark btn-md me-1 ps-3" aria-label=".">
+                              <i class="bi bi-whatsapp"></i>
+                            </a>
+                           </div>
+                        </section>
+
+                        <section class="col-md-4 col-lg-3 text-lg-start text-md-center mb-5">
+                          <h6 class="text-uppercase fw-bold mb-4">Secciones</h6>
+                          <p>
+                            <a href="../index.html" class="text-white">Home</a>
+                          </p>
+                          <p>
+                            <a href="./quienesSomos.html" class="text-white">Quiénes Somos</a>
+                          </p>
+                          <p>
+                            <a href="./ubicacion.html" class="text-white">Ubicación</a>
+                          </p>
+                          <p>
+                            <a href="./contratar.html" class="text-white">Contratar</a>
+                          </p>
+                          <p>
+                            <a href="#" class="text-white">Destinos Aéreos</a>
+                          </p>
+                          <p>
+                            <a href="./destinosTerrestres.html" class="text-white">Destinos Terrestres</a>
+                          </p>
+                          <p>
+                            <a href="./escapadas.html" class="text-white">Escapadas</a>
+                          </p>
+                        </section>
+
+                        <section class="col-md-12 col-lg-4 text-lg-start text-md-center mb-5">
+                          <h6 class="text-uppercase fw-bold mb-4">Informacion de Contacto</h6>
+                          <p>
+                            <i class="bi bi-geo-alt-fill me-2"></i>
+                            18 de Julio 409, 70000 Col. del Sacramento, Departamento de Colonia, Uruguay
+                          </p>
+                          <p>
+                            <i class="bi bi-geo-alt-fill me-2"></i>
+                            Av. Raúl Scalabrini Ortiz 2338, C1425DBR CABA, Argentina
+                          </p>
+                          <p>
+                            <i class="bi bi-mailbox me-2"></i>
+                            contactoTodosViajamos@gmail.com
+                          </p>
+                          <p>
+                            <i class="bi bi-telephone-fill me-2"></i>
+                            (+598) 91 434 312 (Uruguay)
+                          </p>
+                          <p>
+                            <i class="bi bi-telephone-fill me-2"></i>
+                            (+54) 11 8721 2802 (Argentina)
+                          </p>
+                          <p>
+                            <i class="bi bi-telephone me-2"></i>
+                            4552 2802 (Uruguay)
+                          </p>
+                          <p>
+                            <i class="bi bi-telephone me-2"></i>
+                            (+54) 9 321 421 9825 (Argentina)
+                          </p>
+                        </section>
+                    </div>
+                </div>
+              </section>
+            </section>
+            <section class="container-fluid bg-darkmb-2 mt-2">
+              <div class="row">
+                <div class="col">
+                  <p class="text-center text-muted"><span class="text-white">Desarrollado por el Taller de Usabilidad y Accesibildad de CTC - </span> <span class=" text-white fw-bold"> Agosto de 2023</span></p>
+                </div>
+              </div>
+            </section>
+        </footer>
+    </body>
+</html>

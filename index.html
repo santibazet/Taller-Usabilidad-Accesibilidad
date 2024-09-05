@@ -1,0 +1,585 @@
+<!DOCTYPE html>
+
+<html lang="es">
+    <head>
+      <style>
+        @import url('https://fonts.googleapis.com/css2?family=Barlow+Condensed:ital,wght@1,500&family=Lilita+One&display=swap');
+        </style>        
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <title>Todos viajamos</title>
+        <meta name="description" content="Todos viajamos. Viajes terrestres, aereos y escapadas">
+        <meta name="keywords" content="Todos viajamos">
+        <meta name="author" content="Santiago Bazet Ezequiel Sale">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link rel="stylesheet" href="assets/css/styles.css">
+        <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+        <link 
+        href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/css/bootstrap.min.css" 
+        rel="stylesheet" 
+        integrity="sha384-4bw+/aepP/YC94hEpVNVgiZdgIC5+VKNBQNGCHeKRQN+PtmoHDEXuppvnDJzQIu9" 
+        crossorigin="anonymous"
+        >
+        <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Titillium+Web:ital,wght@0,600;1,300&display=swap"
+      rel="stylesheet"
+    />
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/js/bootstrap.bundle.min.js" integrity="sha384-HwwvtgBNo3bZJJLYd8oVXjrBZt8cqVSpeBNS5n7C8IVInixGAoxmnlMuBnhbgrkm" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.5/font/bootstrap-icons.css">
+  </head>
+    <body>
+        <header class="mb-0">
+            
+            <nav class="navbar navbar-expand-lg bg-dark border-bottom border-body animacion-nav" data-bs-theme="dark">
+                <div class="container-fluid">
+                  <a class="navbar-brand nav-item" href="#">
+                    <img src="assets/images/logo2.png" alt="Logo Todos viajamos" width="100" height="100" class="rounded-circle">
+                  </a>
+                  <t class="nombre-navbar text-uppercase fw-semibold text-end" href="#" style="font-family: 'Barlow Condensed', sans-serif; font-weight: 600;">Todos viajamos</t>
+                  <button class="navbar-toggler bg-body" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                  </button>
+                  <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                    <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                      <li class="nav-item" style="font-size: 20px; font-family: 'Barlow Condensed', sans-serif; font-weight: 200;">
+                        <a class="nav-link active text-white" aria-current="page" href="./index.html">Home</a>
+                      </li>
+                      <li class="nav-item" style="font-size: 20px; font-family: 'Barlow Condensed', sans-serif; font-weight: 200;">
+                        <a class="nav-link text-white" href="./pages/quienesSomos.html">Quiénes somos</a>
+                      </li>
+                      <li class="nav-item" style="font-size: 20px; font-family: 'Barlow Condensed', sans-serif; font-weight: 200;">
+                        <a class="nav-link text-white" href="./pages/ubicacion.html">Ubicación</a>
+                      </li>
+                      <li class="nav-item" style="font-size: 20px; font-family: 'Barlow Condensed', sans-serif; font-weight: 200;">
+                        <a class="nav-link text-white" href="./pages/contratar.html">Contratar</a>
+                      </li>
+                      <li class="nav-item dropdown" style="font-size: 20px; font-family: 'Barlow Condensed', sans-serif; font-weight: 200;">
+                        <a class=" text-white nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                          Destinos
+                        </a>
+                        <ul class="dropdown-menu dropdown-menu-dark" style="font-size: 20px; font-family: 'Barlow Condensed', sans-serif; font-weight: 200;">
+                          <li><a class="dropdown-item" href="./pages/destinosAereos.html">Destinos Aereos</a></li>
+                          <li><a class="dropdown-item" href="./pages/destinosTerrestres.html">Destinos Terrestres</a></li>
+                          <li><hr class="dropdown-divider"></li>
+                          <li><a class="dropdown-item" href="./pages/escapadas.html">Escapadas</a></li>
+                        </ul>
+                      </li>
+                    </ul>
+                  </div>
+                </div>
+              </nav>
+        </header>
+        </nav>
+
+        <main>
+          
+          <section class="hero fondo-formulario" style="background-color: #fcf9f5; padding: 40px 0; box-shadow: 0px 0px 20px rgba(0, 0, 0, 0.1); border-radius: 20px;">
+            <div class="container mt-4">
+                <div class="row">
+                    <div class="col-lg-5 mb-5">
+                        <img src="./assets/images/familia.jpg" alt="Logoo" class="img-fluid w-100 mt-4 shadow-lg" style="border-radius: 20px;">
+                    </div>
+        
+                    <div class="col-lg-7">
+                        <div class="intro-wrap">
+                            <h1 class="mb-5 text-center">
+                                <span class="d-block titulo-principal">Disfruta tu viaje donde más desees</span>
+                            </h1>
+                            <div class="row">
+                                <div class="col">
+                                    <form class="form mb-4 mt-5 card p-4" style="background-color: #ffffff; border-radius: 20px;">
+                                        <div class="row mb-2">
+                                            <div class="col-sm-12 col-md-6 mb-3 mb-lg-0 col-lg-4">
+                                                <select name="paises" id="paises" class="form-control custom-select" style="font-size: 20px; font-family: 'Barlow Condensed', sans-serif; font-weight: 200;">
+                                                    <option value="">Seleccione país</option>
+                                                   <option value="1">Argentina</option>
+                                                <option value="2">Brasil</option>
+                                                <option value="3">Chile</option>
+                                                <option value="4">Bolivia</option>
+                                                <option value="5">Estados Unidos</option>
+                                                <option value="6">Emiratos Árabes Unidos</option>
+                                                <option value="7">España</option>
+                                                <option value="8">Indonesia</option>
+                                                <option value="9">Italia</option>
+                                                <option value="10">Australia</option>
+                                                <option value="11">Países Bajos</option>
+                                                <option value="12">Japón</option>
+                                                <option value="13">Grecia</option>
+                                                <option value="14">México</option>
+                                                </select>
+                                            </div>
+                                            <div class="col-sm-12 col-md-6 mb-3 mb-lg-0 col-lg-5">
+                                                <input
+                                                    type="datetime-local"
+                                                    name="datetime"
+                                                    class="form-control"
+                                                    placeholder="Fecha"
+                                                    style="font-size: 20px; font-family: 'Barlow Condensed', sans-serif; font-weight: 200;"
+                                                />
+                                            </div>
+                                            <div class="col-sm-12 col-md-6 mb-3 mb-lg-0 col-lg-3">
+                                                <input
+                                                    type="number"
+                                                    name="personas"
+                                                    class="form-control"
+                                                    placeholder="Cant. Personas"
+                                                    style="font-size: 20px; font-family: 'Barlow Condensed', sans-serif; font-weight: 200;"
+                                                />
+                                            </div>
+                                        </div>
+                                        <div class="row align-item-center">
+                                            <div class="col-sm-12 col-md-6 mb-3 mb-lg-0 col-lg-4">
+                                                <button
+                                                    type="submit"
+                                                    class="btn btn-primary btn-block"
+                                                    style="font-size: 20px; font-family: 'Barlow Condensed', sans-serif; font-weight: 200;"
+                                                >
+                                                    Buscar
+                                                </button>
+                                            </div>
+                                            <div class="col-lg-8">
+                                                <label class="control mt-3" for="#guardarBusqueda">
+                                                    <span class="caption" style="font-size: 20px; font-family: 'Barlow Condensed', sans-serif; font-weight: 200;">Guardar búsqueda</span>
+                                                    <input
+                                                        type="checkbox"
+                                                        name="guardarBusqueda"
+                                                        id="guardarBusqueda"
+                                                    />
+                                                </label>
+                                            </div>
+                                        </div>
+                                    </form>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+          </section>
+        </main>
+
+        <section id="element-cards" class="mt-sm-3 mb-5">
+          <div class="container">
+              <div class="row justify-content-center">
+                  <div class="col-lg-6">
+                      <h2 class="text-center mb-3 mt-5 text-bold" style="font-size: 65px; font-family: 'Barlow Condensed', sans-serif; font-weight: 600;">
+                          ¿Qué ofrecemos?
+                      </h2>
+                      <p class="text-center">
+                          Te llevamos a donde quieras, más lejos y con más comodidad. Visita nuestros destinos y disfruta de tus vacaciones.
+                      </p>
+                  </div>
+              </div>
+      
+              <div class="row justify-content-center">
+                  <div class="col-lg-3 mb-2">
+                      <div class="card h-100">
+                          <div class="card-body d-flex flex-column justify-content-between">
+                              <div>
+                                  <i class="bi bi-house-heart-fill display-6 text-center"></i>
+                                  <h3 class="" style="text-align: center; font-size: 35px; font-family: 'Barlow Condensed', sans-serif; font-weight: 400;">Alojamiento de calidad</h3>
+                                  <p class="mb-0 text-justify">
+                                      Comodidad y seguridad en tu estadía.
+                                  </p>
+                              </div>
+                          </div>
+                      </div>
+                  </div>
+      
+                  <div class="col-lg-3 mb-2">
+                      <div class="card h-100">
+                          <div class="card-body d-flex flex-column justify-content-between">
+                              <div>
+                                  <i class="bi bi-calendar4-week display-6"></i>
+                                  <h3 class="" style="text-align: center; font-size: 35px; font-family: 'Barlow Condensed', sans-serif; font-weight: 400;">Planificación Personalizada</h3>
+                                  <p>
+                                      Diseñamos itinerarios adaptados a tus preferencias y presupuesto.
+                                  </p>
+                              </div>
+                          </div>
+                      </div>
+                  </div>
+      
+                  <div class="col-lg-3 mb-2">
+                      <div class="card h-100">
+                          <div class="card-body d-flex flex-column justify-content-between">
+                              <div>
+                                  <i class="bi bi-taxi-front-fill display-6 text-center"></i>
+                                  <h3 class="" style="text-align: center; font-size: 35px; font-family: 'Barlow Condensed', sans-serif; font-weight: 400;">Transporte eficiente </h3>
+                                  <p class="mb-0 text-justify">
+                                    Te proporcionamos un transporte confiable y cómodo para que aproveches al máximo tu viaje.
+                                  </p>
+                                  </p>
+                              </div>
+                          </div>
+                      </div>
+                  </div>
+      
+                  <div class="col-lg-3 mb-2">
+                      <div class="card h-100">
+                          <div class="card-body d-flex flex-column justify-content-between">
+                              <div>
+                                  <i class="bi bi-binoculars display-6 text-center"></i>
+                                  <h3 class="" style="text-align: center; font-size: 35px; font-family: 'Barlow Condensed', sans-serif; font-weight: 400;">Actividades y Excursiones</h3>
+                                  <p class="mb-0 text-justify">
+                                    Desde visitas culturales hasta aventuras emocionantes, te ofrecemos una variedad de actividades para enriquecer tu experiencia en el destino.
+                                  </p>
+                                  </p>
+                              </div>
+                          </div>
+                      </div>
+                  </div>
+              </div>
+              
+
+              <div class="row justify-content-center">
+                  <div class="col-lg-3 mb-2">
+                      <div class="card h-100">
+                          <div class="card-body d-flex flex-column justify-content-between">
+                              <div>
+                                  <i class="bi bi-globe display-6 text-center"></i>
+                                  <h3 class="" style="text-align: center; font-size: 35px; font-family: 'Barlow Condensed', sans-serif; font-weight: 400;">Exploración Global</h3>
+                                  <p class="mb-0 text-justify">
+                                      Descubre nuevos horizontes en todo el mundo.
+                                  </p>
+                              </div>
+                          </div>
+                      </div>
+                  </div>
+      
+                  <div class="col-lg-3 mb-2">
+                      <div class="card h-100">
+                          <div class="card-body d-flex flex-column justify-content-between">
+                              <div>
+                                  <i class="bi bi-credit-card display-6 text-center"></i>
+                                  <h3 class="" style="text-align: center; font-size: 35px; font-family: 'Barlow Condensed', sans-serif; font-weight: 400;">Pagos Seguros</h3>
+                                  <p class="text-justify">
+                                      Opciones de pago seguras y convenientes.
+                                  </p>
+                              </div>
+                          </div>
+                      </div>
+                  </div>
+      
+                  <div class="col-lg-3 mb-2">
+                      <div class="card h-100">
+                          <div class="card-body d-flex flex-column justify-content-between">
+                              <div>
+                                  <i class="bi bi-umbrella display-6 text-center"></i>
+                                  <h3 class="" style="text-align: center; font-size: 35px; font-family: 'Barlow Condensed', sans-serif; font-weight: 400;">Asistencia 24/7</h3>
+                                  <p class="mb-0 text-justify">
+                                      Estamos aquí para ayudarte en cualquier momento.
+                                  </p>
+                              </div>
+                          </div>
+                      </div>
+                  </div>
+      
+                  <div class="col-lg-3 mb-2">
+                      <div class="card h-100">
+                          <div class="card-body d-flex flex-column justify-content-between">
+                              <div>
+                                  <i class="bi bi-award display-6 text-center"></i>
+                                  <h3 class="" style="text-align: center; font-size: 35px; font-family: 'Barlow Condensed', sans-serif; font-weight: 400;">Experiencia Reconocida</h3>
+                                  <p class="mb-0 text-justify">
+                                      Años de experiencia en la industria de viajes.
+                                  </p>
+                              </div>
+                          </div>
+                      </div>
+                  </div>
+              </div>
+          </div>
+      </section>
+
+      <section class="container mt-5">
+        <h2 class="text-center mb-4" style="font-size: 48px; font-family: 'Barlow Condensed', sans-serif; font-weight: 450;">Ofertas</h2>
+        <div id="carouselOfertasDestacadas" class="carousel slide" data-bs-ride="carousel">
+
+          <ol class="carousel-indicators">
+            <li data-target="#carouselOfertasDestacadas" data-bs-slide-to="0" aria-label="Slide 1" class="active"></li>
+            <li data-target="#carouselOfertasDestacadas" data-bs-slide-to="1" aria-label="Slide 2"></li>
+            <li data-target="#carouselOfertasDestacadas" data-bs-slide-to="2" aria-label="Slide 3"></li>
+            <li data-target="#carouselOfertasDestacadas" data-bs-slide-to="3" aria-label="Slide 4"></li>
+            <li data-target="#carouselOfertasDestacadas" data-bs-slide-to="4" aria-label="Slide 5"></li>
+        </ol>
+    
+
+            <div class="carousel-inner">
+
+                <div class="carousel-item active" data-bs-interval="10000">
+                    <img src="./assets/images/bsas.jpg" class="d-block w-100" alt="Oferta 1" style="max-height: 300px; object-fit: cover; border-radius: 40px;">
+                    <div class="carousel-caption">
+                        <h3>Buenos Aires, Argentina</h3>
+                        <div style="background-color: white; display: inline-block; padding: 5px 15px; border-radius: 5px; text-align: center;">
+                            <p class="text-muted" style="margin: 0;"><del>$1000</del> <span class="text-danger">$750</span></p>
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="carousel-item" data-bs-interval="10000">
+                    <img src="./assets/images/habana.jpg" class="d-block w-100" alt="Oferta 2" style="max-height: 300px; object-fit: cover; border-radius: 40px;">
+                    <div class="carousel-caption">
+                        <h3>La Habana, Cuba</h3>
+                        <div style="background-color: white; display: inline-block; padding: 5px 15px; border-radius: 5px; text-align: center;">
+                            <p class="text-muted" style="margin: 0;"><del>$1200</del> <span class="text-danger">$900</span></p>
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="carousel-item" data-bs-interval="10000">
+                    <img src="./assets/images/portogalinhas.jpg" class="d-block w-100" alt="Oferta 3" style="max-height: 300px; object-fit: cover; border-radius: 40px;">
+                    <div class="carousel-caption">
+                        <h3>Porto de Galinhas, Brasil</h3>
+                        <div style="background-color: white; display: inline-block; padding: 5px 15px; border-radius: 5px; text-align: center;">
+                            <p class="text-muted" style="margin: 0;"><del>$800</del> <span class="text-danger">$600</span></p>
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="carousel-item" data-bs-interval="10000">
+                    <img src="./assets/images/miami.jpg" class="d-block w-100" alt="Oferta 4" style="max-height: 300px; object-fit: cover; border-radius: 40px;">
+                    <div class="carousel-caption">
+                        <h3>Miami, Estados Unidos</h3>
+                        <div style="background-color: white; display: inline-block; padding: 5px 15px; border-radius: 5px; text-align: center; border-radius: 40px;">
+                            <p class="text-muted" style="margin: 0;"><del>$1500</del> <span class="text-danger">$1200</span></p>
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="carousel-item" data-bs-interval="10000">
+                    <img src="./assets/images/riodejaneiro.jpg" class="d-block w-100" alt="Oferta 5" style="max-height: 300px; object-fit: cover; border-radius: 40px;">
+                    <div class="carousel-caption">
+                        <h3>Río de Janeiro, Brasil</h3>
+                        <div style="background-color: white; display: inline-block; padding: 5px 10px; border-radius: 5px; text-align: center;">
+                            <p class="text-muted" style="margin: 0;"><del>$900</del> <span class="text-danger">$700</span></p>
+                        </div>
+                    </div>
+                </div>
+
+            <a class="carousel-control-prev" href="#carouselOfertasDestacadas" role="button" data-bs-slide="prev">
+              <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+              <span class="visually-hidden">Anterior</span>
+          </a>
+          <a class="carousel-control-next" href="#carouselOfertasDestacadas" role="button" data-bs-slide="next">
+              <span class="carousel-control-next-icon" aria-hidden="true"></span>
+              <span class="visually-hidden">Siguiente</span>
+          </a>
+        </div>
+      </section>
+
+    <section class="container mt-5">
+      <h2 class="text-center mb-4" style="font-size: 48px; font-family: 'Barlow Condensed', sans-serif; font-weight: 450;">Destinos Turísticos</h2>
+      <div class="row" style="font-family: 'Barlow Condensed', sans-serif; font-weight: 450;"> 
+
+          
+
+          
+
+        <div class="col-md-4 mb-4">
+            <div class="card rounded-30 h-100">
+              <img src="./assets/images/kyoto.jpg" class="card-img-top img-fluid" alt="Kyoto, Japón" style="height: 200px; object-fit: cover;">
+              <div class="card-body d-flex flex-column justify-content-between">
+                <h5 class="card-title">Kyoto, Japón</h5>
+                <p class="card-text">Precio: $1700</p>
+                <p class="card-text">Detalles del hospedaje: Ryokan tradicional japonés en el corazón de Kyoto.</p>
+                <p class="card-text">Accesibilidad: El ryokan ofrece instalaciones accesibles para personas con discapacidad.</p>
+                <p class="card-text">Restaurantes: Exquisita cocina kaiseki y restaurantes de fideos soba.</p>
+                <p class="card-text">Transporte: Cerca de estaciones de tren y autobús para explorar la ciudad.</p>
+                <p class="card-text">Atracciones Turísticas: Templos, jardines y el bosque de bambú de Arashiyama.</p>
+                <a href="./contratar.html" class="btn btn-primary btn-block mt-auto mx-auto">Contratar</a>
+              </div>
+            </div>
+          </div>
+
+          <!-- Tarjeta para Sidney, Australia -->
+          <div class="col-md-4 mb-4">
+            <div class="card rounded-30 h-100">
+              <img src="./assets/images/sydney.jpg" class="card-img-top img-fluid" alt="Sidney, Australia" style="height: 200px; object-fit: cover;">
+              <div class="card-body d-flex flex-column justify-content-between">
+                <h5 class="card-title">Sidney, Australia</h5>
+                <p class="card-text">Precio: $1900</p>
+                <p class="card-text">Detalles del hospedaje: Hotel contemporáneo en el puerto de Sidney con vistas espectaculares.</p>
+                <p class="card-text">Accesibilidad: Señalización clara y rampas en toda la instalación.</p>
+                <p class="card-text">Restaurantes: Restaurantes frente al mar y opciones de mariscos frescos.</p>
+                <p class="card-text">Transporte: A poca distancia de ferris y transporte público.</p>
+                <p class="card-text">Atracciones Turísticas: Ópera de Sídney, playas y senderismo en el puerto.</p>
+                <a href="./contratar.html" class="btn btn-primary btn-block mt-auto mx-auto">Contratar</a>
+              </div>
+            </div>
+          </div>
+
+          <!-- Tarjeta para Ámsterdam, Países Bajos -->
+          <div class="col-md-4 mb-4">
+            <div class="card rounded-30 h-100">
+              <img src="./assets/images/amsterdam.jpg" class="card-img-top img-fluid" alt="Ámsterdam, Países Bajos" style="height: 200px; object-fit: cover;">
+              <div class="card-body d-flex flex-column justify-content-between">
+                <h5 class="card-title">Ámsterdam, Países Bajos</h5>
+                <p class="card-text">Precio: $1600</p>
+                <p class="card-text">Detalles del hospedaje: Hotel boutique en el centro de Ámsterdam, cerca de los canales.</p>
+                <p class="card-text">Accesibilidad: El hotel dispone de puertas, baños y ascensores adaptados para personas discapacitadas.</p>
+                <p class="card-text">Restaurantes: Cafés acogedores y restaurantes con vistas a los canales.</p>
+                <p class="card-text">Transporte: Alquiler de bicicletas y sistema de tranvía conveniente.</p>
+                <p class="card-text">Atracciones Turísticas: Museos, paseos en barco y el Barrio Rojo.</p>
+                <a href="./contratar.html" class="btn btn-primary btn-block mt-auto mx-auto">Contratar</a>
+              </div>
+            </div>
+          </div>
+
+          <!-- Tarjeta para La Paz, Bolivia -->
+          <div class="col-md-4 mb-4">
+            <div class="card rounded-30 h-100">
+              <img src="./assets/images/lapaz.jpg" class="card-img-top img-fluid" alt="La Paz, Bolivia" style="height: 200px; object-fit: cover;">
+              <div class="card-body d-flex flex-column justify-content-between">
+                <h5 class="card-title">La Paz, Bolivia</h5>
+                <p class="card-text">Precio: $1700</p>
+                <p class="card-text">Detalles del hospedaje: Hotel con vista a la ciudad de La Paz y comodidades modernas.</p>
+                <p class="card-text">Accesibilidad: El hotel cuenta con rampas en las entradas y personal capacitado.</p>
+                <p class="card-text">Restaurantes: Cocina boliviana y restaurantes internacionales en el centro.</p>
+                <p class="card-text">Transporte: Fácil acceso a teleféricos y autobuses para explorar la ciudad.</p>
+                <p class="card-text">Atracciones Turísticas: Mercado de las Brujas, Valle de la Luna y pueblos cercanos.</p>
+                <a href="./contratar.html" class="btn btn-primary btn-block mt-auto mx-auto">Contratar</a>
+              </div>
+            </div>
+          </div>
+
+          <!-- Tarjeta para Dubái, Emiratos Árabes Unidos -->
+          <div class="col-md-4 mb-4">
+            <div class="card rounded-30 h-100">
+              <img src="./assets/images/dubai.jpg" class="card-img-top img-fluid" alt="Dubái, Emiratos Árabes Unidos" style="height: 200px; object-fit: cover;">
+              <div class="card-body d-flex flex-column justify-content-between">
+                <h5 class="card-title">Dubái, Emiratos Árabes Unidos</h5>
+                <p class="card-text">Precio: $2000</p>
+                <p class="card-text">Detalles del hospedaje: Hotel de lujo en el centro de Dubái con vistas a los rascacielos.</p>
+                <p class="card-text">Accesibilidad: El hotel dispone de habitaciones adaptadas con todas las facilidades.</p>
+                <p class="card-text">Restaurantes: Restaurantes de clase mundial y cocina internacional.</p>
+                <p class="card-text">Transporte: Taxis de lujo y transporte a las principales atracciones.</p>
+                <p class="card-text">Atracciones Turísticas: Burj Khalifa, centros comerciales y safari en el desierto.</p>
+                <a href="./contratar.html" class="btn btn-primary btn-block mt-auto mx-auto">Contratar</a>
+              </div>
+            </div>
+          </div>
+
+          <!-- Tarjeta para Santiago de Chile, Chile -->
+          <div class="col-md-4 mb-4">
+            <div class="card rounded-30 h-100">
+              <img src="./assets/images/santiago.jpg" class="card-img-top img-fluid" alt="Santiago de Chile, Chile" style="height: 200px; object-fit: cover;">
+              <div class="card-body d-flex flex-column justify-content-between">
+                <h5 class="card-title">Santiago de Chile, Chile</h5>
+                <p class="card-text">Precio: $950</p>
+                <p class="card-text">Detalles del hospedaje: Hotel céntrico en Santiago con fácil acceso a las atracciones.</p>
+                <p class="card-text">Accesibilidad: El hotel cuenta con señalización clara, rampas en el complejo y baños adaptados.</p>
+                <p class="card-text">Restaurantes: Restaurantes con comida chilena y opciones internacionales.</p>
+                <p class="card-text">Transporte: Metro y autobuses cercanos para explorar la ciudad.</p>
+                <p class="card-text">Atracciones Turísticas: Cerro San Cristóbal, Plaza de Armas y bodegas de vino.</p>
+                <a href="./contratar.html" class="btn btn-primary btn-block mt-auto mx-auto">Contratar</a>
+              </div>
+            </div>
+          </div>
+  </section>
+      
+    </main>
+          <footer class="text-center text-lg-start bg-dark text-dark" style="font-family: 'Barlow Condensed', sans-serif; font-weight: 300;">
+
+            <section>
+              <section class="border-top">
+                <div class="container text-center text-md-start mt-5 text-white">
+                    <div class="row mt-3">
+
+                        <section class="col-sm-12 col-lg-5 text-lg-start text-md-center mb-5">
+                          <h6 class="text-uppercase fw-bold mb-4">Todos viajamos</h6>
+                          <p class="fst-italic fw-bolder">
+                            ¡Descubre el mundo con nosotros! Somos tu puerta a experiencias de viaje únicas y 
+                            personalizadas. Desde playas paradisíacas hasta aventuras en destinos exóticos, estamos aquí para hacer 
+                            tus sueños de viaje realidad. Tu próxima aventura comienza aquí.
+                          </p> 
+                           <div class="mt-6 ms-sm-auto">
+                            <a href="#" class="btn btn-dark btn-md me-1 ps-3" aria-label=".">
+                              <i class="bi bi-facebook"></i>
+                            </a>
+                            <a href="#" class="btn btn-dark btn-md me-1 ps-3" aria-label=".">
+                              <i class="bi bi-instagram"></i>
+                            </a>
+                            <a href="#" class="btn btn-dark btn-md me-1 ps-3" aria-label=".">
+                              <i class="bi bi-whatsapp"></i>
+                            </a>
+                           </div>
+                        </section>
+
+                        <section class="col-md-4 col-lg-3 text-lg-start text-md-center mb-5">
+                          <h6 class="text-uppercase fw-bold mb-4">Secciones</h6>
+                          <p>
+                            <a href="#" class="text-white">Home</a>
+                          </p>
+                          <p>
+                            <a href="./pages/quienesSomos.html" class="text-white">Quiénes Somos</a>
+                          </p>
+                          <p>
+                            <a href="./pages/ubicacion.html" class="text-white">Ubicación</a>
+                          </p>
+                          <p>
+                            <a href="./pages/contratar.html" class="text-white">Contratar</a>
+                          </p>
+                          <p>
+                            <a href="./pages/destinosAereos.html" class="text-white">Destinos Aéreos</a>
+                          </p>
+                          <p>
+                            <a href="./pages/destinosTerrestres.html" class="text-white">Destinos Terrestres</a>
+                          </p>
+                          <p>
+                            <a href="./pages/escapadas.html" class="text-white">Escapadas</a>
+                          </p>
+                        </section>
+
+                        <section class="col-md-12 col-lg-4 text-lg-start text-md-center mb-5">
+                          <h6 class="text-uppercase fw-bold mb-4">Informacion de Contacto</h6>
+                          <p>
+                            <i class="bi bi-geo-alt-fill me-2"></i>
+                            18 de Julio 409, 70000 Col. del Sacramento, Departamento de Colonia, Uruguay
+                          </p>
+                          <p>
+                            <i class="bi bi-geo-alt-fill me-2"></i>
+                            Av. Raúl Scalabrini Ortiz 2338, C1425DBR CABA, Argentina
+                          </p>
+                          <p>
+                            <i class="bi bi-mailbox me-2"></i>
+                            contactoTodosViajamos@gmail.com
+                          </p>
+                          <p>
+                            <i class="bi bi-telephone-fill me-2"></i>
+                            (+598) 91 434 312 (Uruguay)
+                          </p>
+                          <p>
+                            <i class="bi bi-telephone-fill me-2"></i>
+                            (+54) 11 8721 2802 (Argentina)
+                          </p>
+                          <p>
+                            <i class="bi bi-telephone me-2"></i>
+                            4552 2802 (Uruguay)
+                          </p>
+                          <p>
+                            <i class="bi bi-telephone me-2"></i>
+                            (+54) 9 321 421 9825 (Argentina)
+                          </p>
+                        </section>
+                    </div>
+                </div>
+              </section>
+            </section>
+            <section class="container-fluid bg-darkmb-2 mt-2">
+              <div class="row">
+                <div class="col">
+                  <p class="text-center text-muted"><span class="text-white">Desarrollado por el Taller de Usabilidad y Accesibildad de CTC - </span> <span class=" text-white fw-bold"> Agosto de 2023</span></p>
+                </div>
+              </div>
+            </section>
+        </footer>
+    </body>
+</html>
+
+
+
